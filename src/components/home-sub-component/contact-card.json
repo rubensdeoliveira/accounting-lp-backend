@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_sub_component_contact_cards",
+  "info": {
+    "displayName": "ContactCard",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contactText": {
+      "type": "string",
+      "required": true
+    },
+    "contactType": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

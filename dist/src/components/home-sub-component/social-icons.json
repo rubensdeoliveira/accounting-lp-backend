@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_home_sub_component_social_icons",
+    "info": {
+        "displayName": "socialIcons",
+        "icon": "align-justify",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "iconType": {
+            "type": "string",
+            "required": true
+        },
+        "link": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

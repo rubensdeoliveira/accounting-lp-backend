@@ -1,0 +1,18 @@
+{
+    "collectionName": "components_home_sub_component_buttons",
+    "info": {
+        "displayName": "Button",
+        "icon": "at"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string",
+            "required": true
+        },
+        "link": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

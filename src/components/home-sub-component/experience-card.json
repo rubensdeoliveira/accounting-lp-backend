@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_sub_component_experience_cards",
+  "info": {
+    "displayName": "experienceCard",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "job": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

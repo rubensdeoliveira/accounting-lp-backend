@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_sub_component_what_we_do_cards",
+  "info": {
+    "displayName": "whatWeDoCard",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "linkText": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "iconType": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

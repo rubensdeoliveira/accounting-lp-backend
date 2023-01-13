@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_component_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "th",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "devApresentation": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-sub-component.button",
+      "required": true
+    },
+    "devImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

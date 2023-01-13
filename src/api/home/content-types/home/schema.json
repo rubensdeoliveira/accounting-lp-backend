@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.hero",
+      "required": true
+    },
+    "whatWeDo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.what-we-do",
+      "required": true
+    },
+    "experience": {
+      "displayName": "Experience",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.experience",
+      "required": true
+    },
+    "countInNumbers": {
+      "displayName": "CountInNumbers",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.count-in-numbers",
+      "required": true
+    },
+    "testimonials": {
+      "displayName": "Testimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.testimonials",
+      "required": true
+    },
+    "callToAction": {
+      "displayName": "CallToAction",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.call-to-action",
+      "required": true
+    },
+    "contact": {
+      "displayName": "Contact",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.contact",
+      "required": true
+    },
+    "footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-component.footer",
+      "required": true
+    }
+  }
+}
