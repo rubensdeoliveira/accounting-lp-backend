@@ -6,7 +6,7 @@ exports.default = () => ({
         connection: {
             host: '127.0.0.1',
             port: 5432,
-            database: 'portfolio-strapi-db',
+            database: 'accounting-db',
             user: 'postgres',
             password: 'docker',
             ssl: false,
