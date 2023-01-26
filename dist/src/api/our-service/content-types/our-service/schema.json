@@ -1,10 +1,10 @@
 {
     "kind": "singleType",
-    "collectionName": "homes",
+    "collectionName": "our_services",
     "info": {
-        "singularName": "home",
-        "pluralName": "homes",
-        "displayName": "Home",
+        "singularName": "our-service",
+        "pluralName": "our-services",
+        "displayName": "OurServices",
         "description": ""
     },
     "options": {
@@ -12,12 +12,6 @@
     },
     "pluginOptions": {},
     "attributes": {
-        "hero": {
-            "type": "component",
-            "repeatable": false,
-            "required": true,
-            "component": "home-component.hero"
-        },
         "whyChooseUs": {
             "type": "component",
             "repeatable": false,

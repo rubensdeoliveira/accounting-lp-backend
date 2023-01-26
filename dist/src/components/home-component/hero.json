@@ -7,10 +7,6 @@
     },
     "options": {},
     "attributes": {
-        "devApresentation": {
-            "type": "string",
-            "required": true
-        },
         "title": {
             "type": "string",
             "required": true
@@ -26,13 +22,17 @@
             "component": "home-sub-component.button",
             "required": true
         },
-        "devImage": {
+        "image": {
             "type": "media",
             "multiple": false,
             "required": true,
             "allowedTypes": [
                 "images"
             ]
+        },
+        "subtitle": {
+            "type": "string",
+            "required": true
         }
     }
 }

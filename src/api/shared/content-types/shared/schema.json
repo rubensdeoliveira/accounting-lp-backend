@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "shareds",
   "info": {
-    "singularName": "home",
-    "pluralName": "homes",
-    "displayName": "Home",
+    "singularName": "shared",
+    "pluralName": "shareds",
+    "displayName": "Shared",
     "description": ""
   },
   "options": {
@@ -12,16 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
+    "footer": {
       "type": "component",
       "repeatable": false,
-      "required": true,
-      "component": "home-component.hero"
+      "component": "home-component.footer",
+      "required": true
     },
-    "whyChooseUs": {
+    "header": {
       "type": "component",
       "repeatable": false,
-      "component": "home-component.why-choose-us",
+      "component": "home-component.header",
       "required": true
     }
   }

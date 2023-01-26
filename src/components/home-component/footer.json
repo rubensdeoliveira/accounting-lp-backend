@@ -7,22 +7,30 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "title1": {
       "type": "string",
       "required": true
     },
-    "footerInfoTextLinks": {
-      "displayName": "footerInfo",
-      "type": "component",
-      "repeatable": true,
-      "component": "home-sub-component.footer-info",
-      "required": true
-    },
-    "footerInfoIconLinks": {
+    "iconButtonLinks": {
       "displayName": "socialIcons",
       "type": "component",
       "repeatable": true,
       "component": "home-sub-component.social-icons",
+      "required": true
+    },
+    "title2": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "contactLinks": {
+      "displayName": "contactLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-sub-component.contact-link",
       "required": true
     }
   }

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_sub_component_why_choose_us_cards",
+  "info": {
+    "displayName": "whyChooseUsCard",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "iconType": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_home_sub_component_contact_links",
+    "info": {
+        "displayName": "contactLink",
+        "icon": "ad"
+    },
+    "options": {},
+    "attributes": {
+        "iconType": {
+            "type": "string",
+            "required": true
+        },
+        "text": {
+            "type": "string",
+            "required": true
+        },
+        "link": {
+            "type": "string",
+            "required": true
+        }
+    }
+}
