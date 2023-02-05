@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = () => ({
+exports.default = ({ env }) => ({
     connection: {
         client: 'postgres',
         connection: {
-            host: '127.0.0.1',
-            port: 5432,
-            database: 'accounting-strapi-db',
-            user: 'postgres',
-            password: 'docker',
+            host: env("DATABASE_LOCAL_HOST"),
+            port: env("DATABASE_LOCAL_PORT"),
+            database: env("DATABASE_LOCAL_DATABASE"),
+            user: env("DATABASE_LOCAL_USER"),
+            password: env("DATABASE_LOCAL_PASSWORD"),
             ssl: false,
         },
     },
